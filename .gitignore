@@ -1,0 +1,106 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Model outputs and checkpoints (large binary files)
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+adapter_model.*
+
+# Datasets (regenerate with dataset_prep.py)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+wheels/
+*.whl
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# W&B
+wandb/
+.wandb/
+
+# HuggingFace cache
+.cache/
+~/.cache/huggingface/
+
+# Evaluation results (regenerate with evaluate.py)
+evaluation_results.csv
+evaluation_results.json
+*.results.json
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Temp files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Compiled tokenizer files (auto-generated)
+tokenizer.model
+special_tokens_map.json
+tokenizer_config.json
+
+# llama.cpp artifacts
+*.gguf
+*.ggml
+
+# Gradio temp uploads
+gradio_cached_examples/
+flagged/

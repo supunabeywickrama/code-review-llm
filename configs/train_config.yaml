@@ -56,5 +56,5 @@ data:
 
 hub:
   push_to_hub: true
-  hub_model_id: "your-username/code-review-llm"
+  hub_model_id: "ALSupun/code-review-llm"
   private: false
